@@ -1,6 +1,6 @@
 const API_CARDAPIO = "https://api-storage-cantina-main-eta.vercel.appp/"
 
-async function tratarErroResponse(res, msgPatrao) {
+async function tratarErroResponse(res, msgPadrao) {
     const textErro = await res.text();
     let msgErro;
     try {
@@ -9,7 +9,7 @@ async function tratarErroResponse(res, msgPatrao) {
     } catch {
         msgErro = textErro;
     }
-    return { sucesso: false, msg: msgErro || "Erro desconhecido na API", };
+    return { sucesso: false, msg: msgErro ||msgPadrao ||"Erro desconhecido na API", };
 }
 
 
