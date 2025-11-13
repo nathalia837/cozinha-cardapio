@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 body {
     background-color: #303AFF;
 }
@@ -16,7 +15,6 @@ header {
     color: #303AFF;
 }
 
-
 main {
     display: flex;
     align-items: center;
@@ -24,16 +22,17 @@ main {
     width: 100%;
 }
 
-main div{
-    
+main div {
+
     width: 100%;
 }
-div select{
-    width:90%;
+
+div select {
+    width: 90%;
 }
 
-div textarea{
-    width:88%;
+div textarea {
+    width: 88%;
 }
 
 h2 {
@@ -54,7 +53,6 @@ h1 {
     font-family: "Inika", sans-serif;
     margin-top: 25px;
     text-align: center;
-    
 
 }
 
@@ -68,9 +66,9 @@ h3 {
 
 }
 
-h5{
+h5 {
     font-size: 36px;
-    color:white;
+    color: white;
     margin: 0;
     font-family: "Inika", sans-serif;
     margin-top: 25px;
@@ -87,7 +85,6 @@ input {
     padding: 0 10px;
     font-size: 26px;
     font-family: "Inika", sans-serif;
-
 
 }
 
@@ -125,7 +122,6 @@ th {
     padding: 20px;
     background-color: #448AFF;
 
-
 }
 
 td {
@@ -139,7 +135,6 @@ section {
     flex-direction: column;
     justify-content: center;
 }
-
 
 .fale-conosco {
     display: flex;
@@ -171,7 +166,6 @@ textarea {
     font-family: "Inika", sans-serif;
     resize: none;
 
-
 }
 
 aside {
@@ -183,8 +177,6 @@ aside {
     color: black;
     border: 2px solid white;
 
-
-
 }
 
 p {
@@ -194,15 +186,13 @@ p {
     color: white;
 }
 
-aside fieldset{
-    border:0;
+aside fieldset {
+    border: 0;
 }
 
-aside legend{
-        display: none;
-     }
-
-     
+aside legend {
+    display: none;
+}
 
 @media(max-width: 768px) {
     body {
@@ -236,8 +226,6 @@ aside legend{
         justify-content: center;
         font-family: "Inter";
 
-
-
     }
 
     header div {
@@ -249,7 +237,7 @@ aside legend{
     main {
         display: flex;
         flex-direction: column-reverse;
-        align-items:stretch;
+        align-items: stretch;
     }
 
     aside {
@@ -267,11 +255,7 @@ aside legend{
         font-weight: 400;
         font-style: normal;
         font-size: 20px;
-        color:#448AFF;
-    
-      
-        
-
+        color: #448AFF;
 
     }
 
@@ -280,14 +264,13 @@ aside legend{
         font-weight: 400;
         font-style: normal;
         font-size: 24px;
-        color:black;
+        color: black;
         align-items: center;
         justify-content: center;
         display: flex;
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         height: 50px;
-
 
     }
 
@@ -298,123 +281,130 @@ aside legend{
         font-size: 30px;
         background-color: #448AFF;
         color: #303AFF;
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         height: 69px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    h5{
-        font-family: "Inter", sans-serif ;
+    h5 {
+        font-family: "Inter", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 24px;
-        color:black;
+        color: black;
         height: 50px;
 
     }
-    aside form{
-        display:flex;
+
+    aside form {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
-   aside fieldset{
+
+    aside fieldset {
         border: 1px solid #000;
-        border-radius: 10px;      
+        border-radius: 10px;
         margin: 10px;
         padding: 0;
         width: 80%;
-        height:60px ;
+        height: 60px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-     
-       
 
     }
 
-    aside legend{
+    aside legend {
         display: block;
         font-family: "Inter", sans-serif;
         font-size: 15px;
         color: black;
         padding: 0;
         margin: 0;
-        
 
     }
 
-    input,textarea,select{
+    input,
+    textarea,
+    select {
         height: 27px;
         outline: none;
-        border:0;
+        border: 0;
         font-size: 15px;
-         padding: 0;
+        padding: 0;
         margin: 0;
     }
 
-    button#inserir{
-        display:none;
+    button#inserir {
+        display: none;
     }
-    .button-inserir{
+
+    .button-inserir {
         cursor: pointer;
     }
-    
-    input::placeholder,textarea::placeholder{
-        color:transparent;
+
+    input::placeholder,
+    textarea::placeholder {
+        color: transparent;
 
     }
 
-    .ocultar,select#turno{
+    .ocultar,
+    select#turno {
         border: 0;
-        color:transparent;
+        color: transparent;
 
     }
 
-    
-    table,th,td{
+    table,
+    th,
+    td {
         font-size: 15px;
         border: 1px solid black;
         padding: 0px;
         margin: 0;
         text-align: center;
-       
+
     }
 
-    form,input#date,select#turno{
+    form,
+    input#date,
+    select#turno {
         font-size: 15px;
     }
- .fale-conosco{
-    flex-direction: column;
-    width: 100%s;
 
- }
+    .fale-conosco {
+        flex-direction: column;
+        width: 100%s;
 
- .fale-conosco div{
+    }
+
+    .fale-conosco div {
         margin: 0;
         padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
     }
-section select{
-    border:1px solid black;
-    margin:10px;
-    width: 342px;
-}
-section textarea{
-    border:1px solid black;
-    width: 342px;
-    height:133px;
-}
-}
 
-    
+    section select {
+        border: 1px solid black;
+        margin: 10px;
+        width: 342px;
+    }
 
+    section textarea {
+        border: 1px solid black;
+        width: 342px;
+        height: 133px;
+    }
+}

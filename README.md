@@ -87,4 +87,4 @@ Este projeto está licenciado sob a licença **MIT** – você pode usá-lo, mod
 
 ---
 
-Quer que eu agora mostre o **código completo do `script.js`** com comentários explicativos linha por linha?                                                                                                                                                                                                                                                                
+Quer que eu agora mostre o **código completo do `script.js`** com comentários explicativos linha por linha?
